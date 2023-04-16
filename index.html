@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo list</title>
+		<link rel="stylesheet" href="Styles/common.css" />
+		<link rel="stylesheet" href="Styles/main.css" />
+	</head>
+	<body>
+		<div class="card">
+			<div class="inputTab">
+				<h1>Todo List</h1>
+				<p>Write a new task</p>
+				<div class="input">
+					<input type="text" placeholder="New task here" id="taskInput"/>
+					<button class="addTaskBtn"><ion-icon name="add-outline"></ion-icon></button>
+				</div>
+			</div>
+			<div class="tasks">
+				<div class="task">
+					<label>
+						<input type="checkbox" />
+						<span class="checkbox"></span>
+					</label>
+					<span class="text">Hit the gym</span>
+					<ion-icon name="trash" class="deleteBtn"></ion-icon>
+				</div>
+				<div class="task">
+					<label>
+						<input type="checkbox" />
+						<span class="checkbox"></span>
+					</label>
+					<span class="text">Sleep</span>
+					<ion-icon name="trash" class="deleteBtn"></ion-icon>
+				</div>
+				<div class="task">
+					<label>
+						<input type="checkbox" />
+						<span class="checkbox"></span>
+					</label>
+					<span class="text">Spring cleaning</span>
+					<ion-icon name="trash" class="deleteBtn"></ion-icon>
+				</div>
+			</div>
+		</div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+	</body>
+	<script
+		type="module"
+		src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+	></script>
+	<script
+		nomodule
+		src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+	></script>
+	<script src="main.js"></script>
+</html>
